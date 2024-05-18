@@ -12,7 +12,31 @@
     <meta name="HandheldFriendly" content="True"/>
     <meta name="robots" content="noindex,nofollow"/>
     <title></title>
-    
+    <style>
+            body {
+                --bg-color: var(--tg-theme-bg-color, #fff);
+                font-family: sans-serif;
+                background-color: var(--bg-color);
+                color: var(--tg-theme-text-color, #222);
+                font-size: 14px;
+                margin: 0;
+                padding: 0;
+                color-scheme: var(--tg-color-scheme);
+            }
+
+            button {
+                display: block;
+                width: 100%;
+                font-size: 14px;
+                margin: 15px 0;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                background-color: var(--tg-theme-button-color, #50a8eb);
+                color: var(--tg-theme-button-text-color, #ffffff);
+                cursor: pointer;
+            }
+    </style>
 </head>
 <body>
     <div class="sect_row">Background: <input type="color" id="bg_color_input"/> <select id="bg_color_sel">
